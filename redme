@@ -1,0 +1,26 @@
+  we cant create a spring project by follow the below step
+   1.go to google and search for "Spring Initializer" . click that
+     1.1 select the
+       project    = maven
+       lanagauge  = java
+       Spring version  =  2.7.15
+       project metadate= eg.
+                            Group          =  com.myBlogs
+                            Artifact       =  myBlogs
+                            Name           =  myblogs
+                            Description    =  demo project for myblog
+                            Package        =  com.myBlogs
+       Packageing  = jar
+       java        = 8
+
+       1.2) add the dependencies there - spring web
+                                         lombok
+                                         mysql driver
+                                         spring boot devtools
+                                         spring data JPA
+
+   2. lombok removing of boiler plate code
+      @Data is the annotation = now after adding this we don't need getter and setter
+
+
+
